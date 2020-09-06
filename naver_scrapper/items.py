@@ -9,7 +9,8 @@ import scrapy
 class NaverScrapperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    url = scrapy.Field()
-    media = scrapy.Field()
-    content = scrapy.Field()
     
+    title=scrapy.Field()
+    content=scrapy.Field()
+    pub_date=scrapy.Field()
+    url=scrapy.Field()
